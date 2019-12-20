@@ -71,7 +71,18 @@ module.exports = {
         develop: true, // Activates purging in npm run develop
         purgeOnly: ['/all.sass'], // applies purging only on the bulma css file
       },
-    }, // must be after other CSS plugins
+    }, // must be after other CSS plugins,
+    {
+      resolve: `gatsby-plugin-gtag`,
+      options: {
+        // your google analytics tracking id
+        trackingId: `G-JE74SG96N1`,
+        // Puts tracking script in the head instead of the body
+        head: false,
+        // enable ip anonymization
+        anonymize: true,
+      },
+    },
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
 }

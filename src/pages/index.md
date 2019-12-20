@@ -12,15 +12,7 @@ description: Ultimas promociones en tecnologia
 intro:
   blurbs:
     - image: /img/ryzen.jpg
-      text: >-
-        The world's most advanced processor in the desktop PC gaming segment
-
-        Can deliver ultra fast 100+ FPS performance in the world's most popular
-        games; System Memory Specification 3200MHz, 6 Cores and 12 processing
-        threads, bundled with the powerful AMD Wraith Spire cooler, 4.4 GHz Max
-        Boost, unlocked for overclocking, 35 MB of game Cache, ddr 3200 support,
-        For the advanced socket AM4 platform, can support PCIe 4.0 on x570
-        motherboards 
+      text: Ryzen 3600X A tan solo 199.99 Dolares
   heading: Procesador Ryzen
   description: Por que es necesario esta descripcion.
 main:

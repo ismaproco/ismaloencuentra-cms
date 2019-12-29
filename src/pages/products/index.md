@@ -44,6 +44,7 @@ intro:
     java’s origin and support the farmers that grew it. We take coffee
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
+  amazonFrame: //ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=ismaloencuent-20&language=en_US&marketplace=amazon&region=US&placement=B00I8BICB2&asins=B00I8BICB2&linkId=2027b245ed55ae1dd87ef618d244298b&show_border=true&link_opens_in_new_window=true
 main:
   heading: Great coffee with no compromises
   description: >
@@ -58,6 +59,9 @@ main:
     alt: A green cup of a coffee on a wooden table
     image: /img/products-grid2.jpg
   image3:
+    alt: Coffee beans
+    image: /img/products-grid1.jpg
+  image4:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 testimonials:

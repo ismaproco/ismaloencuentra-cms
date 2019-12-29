@@ -6,6 +6,7 @@ import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
 import Pricing from '../components/Pricing'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import AmazonFrame from '../components/AmazonFrame'
 
 export const ProductPageTemplate = ({
   image,
@@ -183,6 +184,7 @@ export const productPageQuery = graphql`
             }
             text
           }
+          amazonFrame
           heading
           description
         }
@@ -210,6 +212,16 @@ export const productPageQuery = graphql`
             }
           }
           image3 {
+            alt
+            image {
+              childImageSharp {
+                fluid(maxWidth: 1075, quality: 72) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+          image4 {
             alt
             image {
               childImageSharp {

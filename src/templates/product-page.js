@@ -11,9 +11,8 @@ export const ProductPageTemplate = ({
   description,
   fullImage,
   content,
-  contentComponent
 }) => {
-  const PageContent = contentComponent || Content
+  //const PageContent = contentComponent || Content
 
   return (
     <div className="content">
@@ -47,7 +46,7 @@ export const ProductPageTemplate = ({
               </div>
             </div>
             <div className="columns">
-              <PageContent className="content" content={content}/>
+              <HTMLContent className="content" content={content}/>
             </div>
           </div>
         </div>
@@ -77,7 +76,6 @@ const ProductPage = ({ data }) => {
         description={frontmatter.description}
         fullImage={frontmatter.full_image}
         content={html}
-        contentComponent={HTMLContent}
       />
     </Layout>
   )

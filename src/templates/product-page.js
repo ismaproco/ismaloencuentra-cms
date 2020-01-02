@@ -11,48 +11,45 @@ export const ProductPageTemplate = ({
   description,
   fullImage,
   content,
-}) => {
-  //const PageContent = contentComponent || Content
-
-  return (
-    <div className="content">
-      <div
-        className="full-width-image-container margin-top-0"
+}) => (
+  <div className="content">
+    <div
+      className="full-width-image-container margin-top-0"
+      style={{
+        backgroundImage: `url(${
+          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+        })`,
+      }}
+    >
+      <h2
+        className="has-text-weight-bold is-size-1"
         style={{
-          backgroundImage: `url(${
-            !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-          })`,
+          boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
+          backgroundColor: '#f40',
+          color: 'white',
+          padding: '1rem',
         }}
       >
-        <h2
-          className="has-text-weight-bold is-size-1"
-          style={{
-            boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
-            backgroundColor: '#f40',
-            color: 'white',
-            padding: '1rem',
-          }}
-        >
-          {title}
-        </h2>
-      </div>
-      <section className="section section--gradient">
-        <div className="container">
-          <div className="section">
-            <div className="columns">
-              <div className="column is-7 is-offset-1">
-                <h3 className="has-text-weight-semibold is-size-2">{heading}</h3>
-                <p>{description}</p>
-              </div>
-            </div>
-            <div className="columns">
-              <HTMLContent className="content" content={content}/>
+        {title}
+      </h2>
+    </div>
+    <section className="section section--gradient">
+      <div className="container">
+        <div className="section">
+          <div className="columns">
+            <div className="column is-7 is-offset-1">
+              <h3 className="has-text-weight-semibold is-size-2">{heading}</h3>
+              <p>{description}</p>
             </div>
           </div>
+          <div className="columns">
+            <HTMLContent className="content" content={content}/>
+          </div>
         </div>
-      </section>
-    </div>)
-}
+      </div>
+    </section>
+  </div>
+)
 
 ProductPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
@@ -61,7 +58,6 @@ ProductPageTemplate.propTypes = {
   description: PropTypes.string,
   fullImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   content: PropTypes.string,
-  contentComponent: PropTypes.func,
 }
 
 const ProductPage = ({ data }) => {

@@ -11,7 +11,10 @@ export const ProductPageTemplate = ({
   description,
   fullImage,
   content,
-}) => (
+  contentComponent
+}) => {
+  const PageContent = contentComponent || Content
+  return (
   <div className="content">
     <div
       className="full-width-image-container margin-top-0"
@@ -43,13 +46,13 @@ export const ProductPageTemplate = ({
             </div>
           </div>
           <div className="columns">
-            <HTMLContent className="content" content={content}/>
+            <PageContent className="content" content={content}/>
           </div>
         </div>
       </div>
     </section>
   </div>
-)
+)}
 
 ProductPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
@@ -58,6 +61,7 @@ ProductPageTemplate.propTypes = {
   description: PropTypes.string,
   fullImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   content: PropTypes.string,
+  contentComponent: PropTypes.func,
 }
 
 const ProductPage = ({ data }) => {
@@ -71,6 +75,7 @@ const ProductPage = ({ data }) => {
         heading={frontmatter.heading}
         description={frontmatter.description}
         fullImage={frontmatter.full_image}
+        contentComponent={HTMLContent}
         content={html}
       />
     </Layout>

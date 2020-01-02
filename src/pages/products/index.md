@@ -8,4 +8,16 @@ full_image: /img/products-full-width.jpg
 ---
 Estos son los mejores productos que actualmente tenemos en promoción
 
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=ismaloencuent-20&language=en_US&marketplace=amazon&region=US&placement=B0828JCKS9&asins=B0828JCKS9&linkId=2a882f0ea48e38ecfef0bbe8391bed11&show_border=true&link_opens_in_new_window=true"></iframe>
+![Dell xps 15](/img/dell-xps-15-promo.jpg "Dell xps 15")
+
+Computadora Portatil Dell XPS 15 pulgadas 16GB Ram por 1890 Dolares https://amzn.to/2QeYyLn
+
+![Tablet Samsung Galaxy Tab S6](/img/samsung-galaxy-tab-s6-promo.jpg "Dell xps 15")
+
+Tablet Samsung Galaxy Tab S6 10.5'' - por 729.99 USD
+https://amzn.to/2Qflqul
+
+![Samsung SD Card](/img/samsung-sd-card-128gb-promo.jpg "Dell xps 15")
+
+Samsung SD Card 128 GB por 19.49 USD
+https://amzn.to/36bUtx4

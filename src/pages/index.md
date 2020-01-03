@@ -10,20 +10,20 @@ mainpitch:
 
 description: Ultimas promociones en tecnologia
 intro:
+  amazonFrame: >-
+    https://ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=ismaloencuent-20&language=en_US&marketplace=amazon&region=US&placement=B0794W1SKP&asins=B0794W1SKP&linkId=126c54ba1992ec0114d0488fd4d55820&show_border=true&link_opens_in_new_window=true
   blurbs:
     - image: /img/ryzen.jpg
       text: Ryzen 3600X A tan solo 199.99 Dolares
+    - image: /img/dell-xps-15-promo.jpg
+      text: Dell XPS 15 7590 a 1890 Dolares
   heading: Procesador Ryzen
   description: Por que es necesario esta descripcion.
 main:
-  heading: Great coffee with no compromises
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+  heading: ' '
+  description: ' '
   image1:
-    alt: A close-up of a paper filter filled with ground coffee
+    alt: ' '
     image: /img/products-grid3.jpg
   image2:
     alt: A green cup of a coffee on a wooden table

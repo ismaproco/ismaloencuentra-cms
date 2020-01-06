@@ -15,14 +15,19 @@ intro:
   blurbs:
     - image: /img/dell-xps-15-promo.jpg
       text: Dell XPS 15 7590 a 1890 USD
+      link: https://amzn.to/2QeYyLn
     - image: /img/sony-a6000-promo-1-.jpg
       text: Camara Sony Alpha a6000 Mirrorless 24.3MP por 498 USD
+      link: https://amzn.to/37mROko
     - image: /img/samsung-galaxy-tab-s6-promo.jpg
       text: Tablet Samsung Galaxy Tab S6 10.5'' - por 729.99 USD
+      link: https://amzn.to/2Qflqul
     - image: /img/ps4-controller-promo.png
       text: Control PS4 Morado a 65 USD
+      link: https://amzn.to/2MsGWcF
     - image: /img/ryzen.jpg
       text: Ryzen 3600X A tan solo 238.99 USD
+      link: https://amzn.to/2MV53Bd
   heading: Procesador Ryzen
   description: Por que es necesario esta descripcion.
 main:

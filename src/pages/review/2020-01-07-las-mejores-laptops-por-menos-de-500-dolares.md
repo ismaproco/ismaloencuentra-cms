@@ -5,7 +5,7 @@ date: 2020-01-07T18:07:59.492Z
 description: >-
   Necesitas una laptop que cueste menos de 500 dolares y que aun asi te permita
   jugar y ser productivo, estas son las mejores promociones que promacia
-  encontró para ti
+  encontró para ti.
 featuredpost: true
 featuredimage: /img/dell-xps-13.jpg
 tags:

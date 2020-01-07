@@ -13,6 +13,7 @@ tags:
   - computadoras
   - top 5
 ---
+##### Publicado el 01/07/2020
 ## 1. ASUS VivoBook 15 - $497.93 Dolares
    [![asus vivo book](/img/asus-vivobook-15.jpg)](https://amzn.to/39QBF8T)
 Esta laptop de 15'' pulgadas cuenta con:

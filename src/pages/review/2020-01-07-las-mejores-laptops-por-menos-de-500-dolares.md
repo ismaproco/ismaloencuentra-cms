@@ -14,4 +14,4 @@ tags:
   - top 5
 ---
 1. ASUS VivoBook 15 - $497.93 Dolares
-   ![asus vivo book](/img/asus-vivobook-15.jpg "asus vivo book" = 100x100)
+   [![asus vivo book](/img/asus-vivobook-15.jpg "asus vivo book" =100x100)](https://amzn.to/39QBF8T)

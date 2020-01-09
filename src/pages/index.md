@@ -13,6 +13,9 @@ intro:
   amazonFrame: >-
     https://ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=ismaloencuent-20&language=en_US&marketplace=amazon&region=US&placement=B0794W1SKP&asins=B0794W1SKP&linkId=126c54ba1992ec0114d0488fd4d55820&show_border=true&link_opens_in_new_window=true
   blurbs:
+    - image: /img/razer-elite-mouse-promo.jpg
+      link: 'https://amzn.to/36FyjDF'
+      text: Razer Elite Gaming Mouse por $29.99
     - image: /img/go-pro-8-bundle-promo.jpg
       link: 'https://amzn.to/37NqOLd'
       text: "\U0001F4F7 Go Pro 8 bundle con Memoria, y accessorios pro $449.99 USD "

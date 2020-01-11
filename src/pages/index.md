@@ -38,6 +38,20 @@ intro:
     - image: /img/ryzen.jpg
       link: 'https://amzn.to/2MV53Bd'
       text: Ryzen 3600X A tan solo 238.99 USD
+    - image: /img/redmi-note-8-promo.jpg
+      link: 'https://amzn.to/2sWTC5k'
+      text: |
+        Xiaomi Redmi Note 8 Pro 64GB, 6GB RAM 6.53" $213.USD
+    - image: /img/fire-tv-4k-promo.jpg
+      link: 'https://amzn.to/2t8pAvf'
+      text: >-
+        Fire TV Stick 4K con Alexa, Ultra HD, Dolby Vision y control por voz por
+        $49.99 USD 
+    - image: /img/travel-backpack-promo.jpg
+      link: 'https://amzn.to/2sj9sqy'
+      text: >-
+        Maleta de viaje resistente al aguar con puerto usb de carga y salida de
+        audifonos 
   heading: Procesador Ryzen
   description: Por que es necesario esta descripcion.
 main:

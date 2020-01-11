@@ -50,8 +50,8 @@ intro:
     - image: /img/travel-backpack-promo.jpg
       link: 'https://amzn.to/2sj9sqy'
       text: >-
-        Maleta de viaje resistente al aguar con puerto usb de carga y salida de
-        audifonos 
+        Maleta de viaje resistente al agua con puerto usb de carga y salida de
+        audifonos  $27.95 USD
   heading: Procesador Ryzen
   description: Por que es necesario esta descripcion.
 main:

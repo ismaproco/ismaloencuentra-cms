@@ -13,6 +13,11 @@ intro:
   amazonFrame: >-
     https://ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=ismaloencuent-20&language=en_US&marketplace=amazon&region=US&placement=B0794W1SKP&asins=B0794W1SKP&linkId=126c54ba1992ec0114d0488fd4d55820&show_border=true&link_opens_in_new_window=true
   blurbs:
+    - image: /img/wall-light-tplink-promo.jpg
+      link: 'https://amzn.to/2QNqPcr'
+      text: >
+        Toma corriente inteligente, conexión por WiFi, Google y Alexa por solo
+        $19.90 USD
     - image: /img/razer-elite-mouse-promo.jpg
       link: 'https://amzn.to/36FyjDF'
       text: Razer Elite Gaming Mouse por $29.99
@@ -52,6 +57,10 @@ intro:
       text: >-
         Maleta de viaje resistente al agua con puerto usb de carga y salida de
         audifonos  $27.95 USD
+    - image: /img/xbox-one-s-all-digital-promo.jpg
+      link: 'https://amzn.to/2TqLJ2V'
+      text: |
+        Xbox One S 1TB Solo digital por solo $174.90 USD 
   heading: Procesador Ryzen
   description: Por que es necesario esta descripcion.
 main:

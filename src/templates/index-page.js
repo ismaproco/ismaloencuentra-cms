@@ -87,7 +87,12 @@ export const IndexPageTemplate = ({
                     <p>{description}</p>
                   </div>
                 </div>
-                <Features gridItems={intro.blurbs} />
+                <Features gridItems={intro.blurbs.slice(0,4)} />
+                <section className="ads">
+                  <div id="amzn-assoc-ad-01241bd8-d0d4-4797-ac51-f5f6fa4b6d95"></div>
+                  <script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=01241bd8-d0d4-4797-ac51-f5f6fa4b6d95"></script>
+                </section>
+                <Features gridItems={intro.blurbs.slice(4,8)} />
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/products">

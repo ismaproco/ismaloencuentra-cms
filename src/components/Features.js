@@ -19,7 +19,11 @@ const FeatureGrid = ({ gridItems }) => (
               </div>
             </a>
           </div>
-          <p>{item.text}</p>
+          <p className="has-text-centered">
+            {item.text}
+            <br />
+            <a href={item.link} target="_blank">{item.link}</a>
+          </p>
         </section>
       </div>
     ))}

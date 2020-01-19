@@ -2,16 +2,37 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 class TagRoute extends React.Component {
   render() {
     const posts = this.props.data.allMarkdownRemark.edges
     const postLinks = posts.map(post => (
-      <li key={post.node.fields.slug}>
-        <Link to={post.node.fields.slug}>
-          <h2 className="is-size-2">{post.node.frontmatter.title}</h2>
-        </Link>
-      </li>
+      <Link to={post.node.fields.slug}>
+        <article key={post.node.fields.slug} className="media">
+          <figure className="media-left">
+            <p class="image is-128x128">
+              {post.node.frontmatter.featuredimage ? (
+                <div className="featured-thumbnail">
+                  <PreviewCompatibleImage
+                    imageInfo={{
+                      image: post.node.frontmatter.featuredimage,
+                      alt: `featured image thumbnail for post ${post.node.frontmatter.title}`,
+                    }}
+                  />
+                </div>
+              ) : null}
+            </p>
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <h2>{post.node.frontmatter.title}</h2>
+              {post.node.frontmatter.description}
+              {post.node.frontmatter.featuredimage.relativePath}
+            </div>
+          </div>
+        </article>
+      </Link>
     ))
     const tag = this.props.pageContext.tag
     const title = this.props.data.site.siteMetadata.title
@@ -20,20 +41,22 @@ class TagRoute extends React.Component {
       totalCount === 1 ? '' : 's'
     } tagged with “${tag}”`
 
+
+
     return (
       <Layout>
         <section className="section">
           <Helmet title={`${tag} | ${title}`} />
-          <div className="container content">
+          <div className="container">
             <div className="columns">
               <div
                 className="column is-10 is-offset-1"
                 style={{ marginBottom: '6rem' }}
               >
-                <h3 className="title is-size-4 is-bold-light">{tagHeader}</h3>
-                <ul className="taglist">{postLinks}</ul>
+                <h3 className="title is-bold-light">{tag}</h3>
+                {postLinks}
                 <p>
-                  <Link to="/tags/">Browse all tags</Link>
+                  <Link to="/tags/" className="button is-danger">Browse all tags</Link>
                 </p>
               </div>
             </div>
@@ -66,6 +89,14 @@ export const tagPageQuery = graphql`
           }
           frontmatter {
             title
+            description
+            featuredimage {
+              childImageSharp {
+                fluid(maxWidth: 240, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
         }
       }

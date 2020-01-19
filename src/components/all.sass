@@ -13,6 +13,10 @@ $black: #2b2523
 .navbar .navbar-menu
   box-shadow:none !important
 
+
+.title
+  text-transform: capitalize
+
 .content .taglist
   list-style: none
   margin-bottom: 0
@@ -22,11 +26,16 @@ $black: #2b2523
   display: flex
   flex-wrap: wrap
   justify-content: left
-  align-items: center
+  align-items: flex-start
+  flex-flow: row
   li
-    padding: 0 2rem 1rem 0
-    margin-bottom: 1.5rem
+    padding: 0 0.75rem 0.75rem 0
+    margin-bottom: 1rem
     margin-top: 0
+
+
+.media-content
+  color: $grey-dark
 
 // Helper Classes
 .full-width-image-container

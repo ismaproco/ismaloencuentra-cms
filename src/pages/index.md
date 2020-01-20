@@ -13,6 +13,10 @@ intro:
   amazonFrame: >-
     https://ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=ismaloencuent-20&language=en_US&marketplace=amazon&region=US&placement=B0794W1SKP&asins=B0794W1SKP&linkId=126c54ba1992ec0114d0488fd4d55820&show_border=true&link_opens_in_new_window=true
   blurbs:
+    - image: /img/dragon-ball-z-kakarot-ps4-promo.jpg
+      link: 'https://amzn.to/30AmA7o'
+      text: |
+        Dragon Ball Z Kakarot por $50 USD
     - image: /img/smart-scale-promo.jpg
       link: 'https://amzn.to/2ssvAPi'
       text: |

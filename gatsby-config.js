@@ -92,6 +92,12 @@ module.exports = {
         anonymize: true,
       },
     },
+    {
+      resolve: `gatsby-plugin-google-adsense`,
+      options: {
+        publisherId: `ca-pub-2719538146254725`
+      },
+    },
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
 }
